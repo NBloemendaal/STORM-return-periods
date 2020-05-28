@@ -4,8 +4,7 @@ Please reach out if you have any questions!
 
 ----------------------------------------------------------------------------------------
 To calculate the return periods at 10 km resolution, please use (in specified order):
-1. holland_model.py
-1. masterprogram.py
+1. holland_model.py + masterprogram.py
 2. return_periods_10km_grid.py
 
 ----------------------------------------------------------------------------------------
@@ -17,5 +16,4 @@ distributions, please use:
 To calculate the return periods for a selection of 18 coastal cities and 63 islands,
 please use:
 1. STORM_return_periods_cities_radius.py
-1. STORM_return_periods_islands_radius.py 
-1. List_of_islands.xlsx
+1. STORM_return_periods_islands_radius.py +List_of_islands.xlsx
