@@ -52,7 +52,11 @@ points=[(i,j) for i in latspace for j in lonspace]
 
 all_data={i:[] for i in range(len(points))}
 
-wind_items=[18,20,25,30,33,35,40,42,45,50,55,58,60,65,70,75,80,85,90,95,100]
+#Please check the definition of wind speed! If it's 1-minute sustained wind, use the following: 
+#wind_items=[20,25,30,33,35,40,42,45,50,55,58,60,65,70,75,80,85]
+
+#In STORM, the wind speeds are 10-min average, so the Saffir-Simpson category thresholds need to be converted from 1-min to 10-min: 
+wind_items=[20,25,29,30,35,37.6,40,43.4,45,50,51.1,55,60,61.6,65,70,75]
 
 # =============================================================================
 # Open the datasets
