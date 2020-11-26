@@ -50,7 +50,7 @@ lonspace=np.arange(lon0+res/2.,lon1+res/2.,res)
 
 points=[(i,j) for i in latspace for j in lonspace]
 
-all_data={i:[] for i in range(points)}
+all_data={i:[] for i in range(len(points))}
 
 wind_items=[18,20,25,30,33,35,40,42,45,50,55,58,60,65,70,75,80,85,90,95,100]
 
@@ -66,8 +66,8 @@ for i in range(0,10):
                   all_data[idx].append(w)
       del dataset
 
-rp_slices={i:[] for i in range(points)}
-wind_slices={i:[] for i in range(points)}
+rp_slices={i:[] for i in range(len(points))}
+wind_slices={i:[] for i in range(len(points))}
 
 for i in range(len(dataset)):
     rp_slices[i]={j:[] for j in returnperiods}
