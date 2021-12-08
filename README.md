@@ -1,6 +1,6 @@
 # STORM-return-periods
 These scripts are used to calculate the wind speed return periods from the STORM dataset
-Please reach out if you have any questions!
+**IMPORTANT: Please be aware that these scripts are not maintained and NO support is provided!!**
 
 ----------------------------------------------------------------------------------------
 To calculate the return periods at 10 km resolution, please use (in specified order):
